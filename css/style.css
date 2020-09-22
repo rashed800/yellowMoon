@@ -1,0 +1,195 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*top section start*/
+.upper{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box{
+    padding-top: 250px;
+}
+
+.navbar{
+    border-bottom: 2px solid #ffe600;
+}
+
+.middle .container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/*top section part end*/
+
+
+
+
+
+
+
+
+
+
+/*portfoliio and hover part start start*/
+.portfolio{
+    background-image: url(../img/portfolio.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio .container{
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.habijabi .container{
+    padding-top: 121px;
+    padding-bottom: 121px;
+}
+
+.photos-hover{
+    position: relative;
+}
+
+.photos-hover .bijli-hover{
+    position: absolute;
+    background-color: #ffe600;
+    width: 255px;
+    height: 170px;
+    top: 0;
+    opacity: 0;
+}
+
+.photos-hover:hover .bijli-hover{
+	opacity: 0.9;
+	transition: 0.8s;
+}
+/*portfolio and hover part end*/
+
+
+
+
+
+
+
+
+
+
+
+/*client part start*/
+.client{
+    background-color: #424245;
+    background-size: cover;
+    background-position: center;
+}
+
+.client .container{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+/*client part end*/
+
+
+
+
+
+
+
+
+/*contact part start*/
+.contact .container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/*contact part end*/
+
+
+
+
+
+
+
+
+
+/*footer part start*/
+.footer{
+    background-color: #131316;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer .container{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+/*footer part end*/
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .photos-hover{
+        padding-bottom: 10px;
+    }
+    .photos-hover .bijli-hover{
+        width: 150px;
+        height: 100px;
+    }
+    .photos-hover .bijli-hover .div{
+        margin-top: -20px;
+        font-size: 16px;
+    }
+    .photos-hover .bijli-hover p{
+        font-size: 11px;
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .photos-hover .bijli-hover{
+        width: 210px;
+        height: 140px;
+    }
+}
+
+
+@media screen and (min-width: 1200px){
+    .photos-hover .bijli-hover{
+        width: 255px;
+        height: 170px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    .photos-hover{
+        padding-bottom: 25px;
+    }
+    .photos-hover .bijli-hover{
+        width: 240px;
+        height: 160px;
+    }
+    .photos-hover .bijli-hover .div{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .photos-hover .bijli-hover p{
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 575px){
+    .photos-hover{
+        padding-bottom: 20px;
+    }
+    .photos-hover .bijli-hover{
+        height: 343px;
+        width: 515px;
+    }
+    .photos-hover .bijli-hover .div{
+        margin-top: 95px;
+        font-size: 36px;
+    }
+    .photos-hover .bijli-hover p{
+        font-size: 22px;
+    }
+}
